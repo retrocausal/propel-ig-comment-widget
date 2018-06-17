@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: medium;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+.static_fixed_news {
+  width: 100%;
+  box-shadow: 0 0 10px 0 #ccc;
+}
+
+.content,
+.threads {
+  width: 100%;
+}
+
+.article-head {
+  width: 100%;
+}
+
+.article-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news-img {
+  width: 100%;
+}
+
+.news-text {
+  width: 100%;
+  padding: 1em;
+  text-align: justify;
+}
+
+.news-mast,
+.caption,
+.comment-header {
+  width: 100%;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+.comment-widget {
+  width: 100%;
+}
+
+.primary {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.posts {
+  width: 100%;
+}
+
+.root {
+  width: 75%;
+}
+
+.add-comment {
+  width: 25%;
+}
+
+.post {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em;
+  margin: 1em 0.1em;
+}
+
+.post-content {
+  width: 75%;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+.post-actions {
+  width: 25%;
+}
+
+.reply-button {
+  max-width: 100%;
+}
+
+.replies {
+  width: 100%;
+  display: none;
+}
+
+.open {
+  display: inline-block;
+}
