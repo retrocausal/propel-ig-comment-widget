@@ -1,0 +1,24 @@
+@media screen and (min-width:760px) {
+  .news-img {
+    width: calc(60% - 2em);
+    padding: 0 1em;
+  }
+  .news-text {
+    width: calc(40% - 2em);
+    font-size: large;
+    padding: 0 1em;
+  }
+  .news-text p {
+    margin: 0.25em 0;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .news-img {
+    width: calc(50% - 2em);
+  }
+  .news-text {
+    width: calc(50% - 2em);
+    font-size: x-large;
+  }
+}
