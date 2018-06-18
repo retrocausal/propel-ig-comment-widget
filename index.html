@@ -23,7 +23,15 @@
             <div class="news-img">
               <figure>
                 <picture>
-                  <img src="assets/static/news.jpg" alt="annual dog fair">
+                  <source srcset="./bundle/responsive-assets/static/news-medium.jpg 600w,
+                  ./bundle/responsive-assets/static/news-small.jpg 480w" media="(max-width:759px)" sizes="99.99vw">
+                  <source srcset="./bundle/responsive-assets/static/news-medium.jpg 640w,
+                  ./bundle/responsive-assets/static/news-large.jpg 960w,
+                  ./bundle/responsive-assets/static/news-x-large.jpg 1280w" media="(min-width:760px)" sizes="calc((80vw) * 0.6)">
+                  <source srcset="./bundle/responsive-assets/static/news-large.jpg 960w,
+                  ./bundle/responsive-assets/static/news-xx-large.jpg 1600w,
+                  ./bundle/responsive-assets/static/news-x-large.jpg 1280w" media="(min-width:1100px)" sizes="calc((72vw) * 0.5)">
+                  <img src="./bundle/responsive-assets/news-small.jpg" alt="annual dog fair">
                 </picture>
                 <figcaption>
                   <h2 class="caption">annual dog fair</h2>

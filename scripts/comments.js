@@ -100,7 +100,9 @@ function postComment() {
     article.innerHTML = content;
     article.setAttribute( 'id', `post_${id}` );
     container.appendChild( article );
-    return createThread( `#post_${id}`, comment );
+    createThread( `#post_${id}`, comment );
+    document.querySelector( '#root' )
+      .value = '';
   }
   return false;
 }

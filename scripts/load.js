@@ -34,6 +34,8 @@ window.addEventListener( 'DOMContentLoaded', ( e ) => {
         const Comment = document.querySelector( postId + ' #in-thread-comment' )
           .value;
         addReply( postId, Comment );
+        document.querySelector( postId + ' #in-thread-comment' )
+          .value = '';
         break;
       default:
         //Do nothing
