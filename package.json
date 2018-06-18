@@ -1,0 +1,33 @@
+{
+  "name": "propel-ig",
+  "version": "1.0.0",
+  "description": "comment widget",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "propel"
+  ],
+  "author": "Nitin",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-asset-cache": "^1.1.5",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-concat-js": "^0.1.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-responsive": "^2.8.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-vulcanize": "^6.1.0",
+    "gulp-watch": "^4.3.11",
+    "pump": "^2.0.0",
+    "sharp": "^0.18.4"
+  },
+  "dependencies": {}
+}

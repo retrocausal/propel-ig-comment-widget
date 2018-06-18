@@ -11,14 +11,25 @@
   .news-text p {
     margin: 0.25em 0;
   }
+  main,
+  header,
+  footer {
+    width: 80%;
+    margin: auto;
+  }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1100px) {
   .news-img {
     width: calc(50% - 2em);
   }
   .news-text {
     width: calc(50% - 2em);
     font-size: x-large;
+  }
+  main,
+  header,
+  footer {
+    width: 72%;
   }
 }
