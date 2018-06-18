@@ -1,9 +1,21 @@
+//Create a weak  structure that is garbage collected as a comment is deleted
+//Or, on refresh
 const Threading = new WeakMap();
+
+/*
+ *EVENT DELEGATION
+ */
+
+//Add event handlers for click events on clickable targets
 window.addEventListener( 'DOMContentLoaded', ( e ) => {
+  //Adds a comment to the main thread
   const actor = document.querySelector( '.add-comment' );
   actor.addEventListener( 'click', e => {
     return postComment();
   } );
+  //Adds event listeners to
+  //Add Replies to a comment on the main thread
+  //And to toggle visibility of conversations
   const postArea = document.querySelector( '#posts' );
   postArea.addEventListener( 'click', e => {
     const Target = e.target;
